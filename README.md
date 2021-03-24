@@ -78,8 +78,8 @@ const ProtectedTextAPI = require('protectedtext-api');
 </table>
 
 ## Future implementations :rocket:	:rocket:
- - Add tab suport
- - Add suport for browser
+ - Add tab support
+ - Add support for browser
  - Auto register site, if not exists
 
 ## Author
