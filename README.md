@@ -28,7 +28,7 @@ npm install protectedtext-api
 ```
 
 ## Basic usage
-```
+```javascript
 const ProtectedTextAPI = require('protectedtext-api');
 
 (async function() {
@@ -52,26 +52,35 @@ const ProtectedTextAPI = require('protectedtext-api');
     <th>Method</th>
     <th>Params</th>
     <th>Description</th>
+    <th>Returns</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>save</td>
     <td>text: string</td>
-    <td>Save the given text, rewriting tab content.</td>
+    <td>Save the given text, rewriting tab content</td>
+    <td>boolean</td>
   </tr>
   <tr>
     <td>view</td>
     <td>void</td>
-    <td>Get all tab' s content.</td>
+    <td>Get all tab' s content</td>
+    <td>string</td>
   </tr>
   <tr>
     <td>deleteSite</td>
     <td>void</td>
     <td>delete site, with all content, dangerous method.</td>
+    <td>boolean</td>
   </tr>
 </tbody>
 </table>
+
+## Future implementations :rocket:	:rocket:
+ - Add tab suport
+ - Add suport for browser
+ - Auto register site, if not exists
 
 ## Author
 
