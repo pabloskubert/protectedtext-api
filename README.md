@@ -27,7 +27,7 @@
 npm install protectedtext-api
 ```
 
-## Basic usage
+## Usage
 ```javascript
 const ProtectedTextAPI = require('protectedtext-api');
 
